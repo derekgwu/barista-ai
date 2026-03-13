@@ -1,13 +1,14 @@
 // components/Navbar.js
 import styles from "./Navbar.module.css"
 import Link from "next/link"
+import { SiBuymeacoffee } from "react-icons/si";
 
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <Link href="/" className={styles.brand}>
-        <span className={styles.brandIcon}>☕</span>
-        <span className={styles.brandName}>Cappuccino<span className={styles.brandAi}>AI</span></span>
+        <SiBuymeacoffee/>
+        <span className={styles.brandName}>Cappuccino.<span className={styles.brandAi}>ai</span></span>
       </Link>
 
       <div className={styles.links}>
