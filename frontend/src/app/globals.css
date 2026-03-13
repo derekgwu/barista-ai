@@ -1,6 +1,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --cream:      #ece0d1;
+  --latte:      #dbc1ac;
+  --mocha:      #967259;
+  --espresso:   #634832;
+  --darkroast:  #38220f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +33,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {

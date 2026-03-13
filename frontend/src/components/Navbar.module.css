@@ -1,0 +1,73 @@
+/* components/Navbar.module.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 64px;
+  background-color: var(--cream);
+  border-bottom: 1px solid var(--latte);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--darkroast);
+}
+
+.brandIcon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.brandName {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--darkroast);
+}
+
+.brandAi {
+  color: var(--mocha);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--espresso);
+  transition: color 0.15s ease;
+}
+
+.navLink:hover {
+  color: var(--mocha);
+}
+
+.loginBtn {
+  padding: 0.45rem 1.2rem;
+  background-color: var(--espresso);
+  color: var(--cream);
+  border: none;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.loginBtn:hover {
+  background-color: var(--darkroast);
+}
